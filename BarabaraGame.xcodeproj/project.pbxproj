@@ -15,6 +15,10 @@
 		B4695B2F246E0CE0006A0028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4695B2D246E0CE0006A0028 /* LaunchScreen.storyboard */; };
 		B4695B3A246E0CE0006A0028 /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4695B39246E0CE0006A0028 /* BarabaraGameTests.swift */; };
 		B4695B45246E0CE0006A0028 /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4695B44246E0CE0006A0028 /* BarabaraGameUITests.swift */; };
+		B4695B54246E1079006A0028 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B4695B52246E1079006A0028 /* bar.png */; };
+		B4695B55246E1079006A0028 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = B4695B53246E1079006A0028 /* tail.png */; };
+		B4695B57246E1509006A0028 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4695B56246E1509006A0028 /* GameViewController.swift */; };
+		B4695B59246E1522006A0028 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4695B58246E1522006A0028 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B4695B40246E0CE0006A0028 /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4695B44246E0CE0006A0028 /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		B4695B46246E0CE0006A0028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4695B52246E1079006A0028 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		B4695B53246E1079006A0028 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		B4695B56246E1509006A0028 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B4695B58246E1522006A0028 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		B4695B16246E0CDE006A0028 = {
 			isa = PBXGroup;
 			children = (
+				B4695B58246E1522006A0028 /* RankingViewController.swift */,
+				B4695B56246E1509006A0028 /* GameViewController.swift */,
 				B4695B21246E0CDE006A0028 /* BarabaraGame */,
 				B4695B38246E0CE0006A0028 /* BarabaraGameTests */,
 				B4695B43246E0CE0006A0028 /* BarabaraGameUITests */,
@@ -99,6 +109,8 @@
 		B4695B21246E0CDE006A0028 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				B4695B52246E1079006A0028 /* bar.png */,
+				B4695B53246E1079006A0028 /* tail.png */,
 				B4695B22246E0CDE006A0028 /* AppDelegate.swift */,
 				B4695B24246E0CDE006A0028 /* SceneDelegate.swift */,
 				B4695B26246E0CDE006A0028 /* ViewController.swift */,
@@ -233,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4695B2F246E0CE0006A0028 /* LaunchScreen.storyboard in Resources */,
+				B4695B55246E1079006A0028 /* tail.png in Resources */,
 				B4695B2C246E0CE0006A0028 /* Assets.xcassets in Resources */,
 				B4695B2A246E0CDE006A0028 /* Main.storyboard in Resources */,
+				B4695B54246E1079006A0028 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4695B59246E1522006A0028 /* RankingViewController.swift in Sources */,
+				B4695B57246E1509006A0028 /* GameViewController.swift in Sources */,
 				B4695B27246E0CDE006A0028 /* ViewController.swift in Sources */,
 				B4695B23246E0CDE006A0028 /* AppDelegate.swift in Sources */,
 				B4695B25246E0CDE006A0028 /* SceneDelegate.swift in Sources */,
